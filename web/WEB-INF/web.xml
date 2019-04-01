@@ -8,6 +8,10 @@
         <servlet-name>CalculoAntSuc</servlet-name>
         <servlet-class>AntecesorSucesor.CalculoAntSuc</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>Ej2</servlet-name>
+        <servlet-class>Eje2.Ej2</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>Calculo</servlet-name>
         <url-pattern>/Calculo</url-pattern>
@@ -16,12 +20,16 @@
         <servlet-name>CalculoAntSuc</servlet-name>
         <url-pattern>/CalculoAntSuc</url-pattern>
     </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Ej2</servlet-name>
+        <url-pattern>/Ej2</url-pattern>
+    </servlet-mapping>
     <session-config>
         <session-timeout>
             30
         </session-timeout>
     </session-config>
     <welcome-file-list>
-        <welcome-file>AntecesorSucesor.html</welcome-file>
+        <welcome-file>Eje2.html</welcome-file>
     </welcome-file-list>
 </web-app>
